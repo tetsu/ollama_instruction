@@ -8,7 +8,7 @@
 
 1. To check if Ollama is installed, go to the following URL on your browswer. [This YouTube video has better explanations](https://youtu.be/91npmOxCL-c).
 
-    [localhost:11434](localhost:11434)
+    [http://localhost:11434](http://localhost:11434)
 
 1. Download a model for Ollama. [Check about Phi-4 on this Youtube video](https://youtu.be/aYvt9czdgbU).
 
