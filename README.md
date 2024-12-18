@@ -16,10 +16,16 @@
     ollama pull vanilj/Phi-4
     ```
 
-1. Run Ollama on Terminal
+1. Test Ollama on Terminal
 
     ```bash
     ollama run vanilj/Phi-4
+    ```
+
+1. Exit from Ollama console.
+
+    ```bash
+    >>> /bye
     ```
 
 1. To run on your brower, run OpenWebUI locally using Docker with GPU. [OpenWebUI document is here](https://docs.openwebui.com/getting-started/quick-start).
