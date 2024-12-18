@@ -42,4 +42,4 @@
 
 1. Open OpenWebUI on your browser.
 
-    [localhost:3000](localhost:3000)
+    [http://localhost:3000](http://localhost:3000)
