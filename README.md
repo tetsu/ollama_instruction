@@ -22,10 +22,9 @@
     ollama run vanilj/Phi-4
     ```
 
-1. To run on your brower, run OpenWebUI locally using Docker. [OpenWebUI document is here](https://docs.openwebui.com/getting-started/quick-start).
+1. To run on your brower, run OpenWebUI locally using Docker with GPU. [OpenWebUI document is here](https://docs.openwebui.com/getting-started/quick-start).
 
     ```bash
-    docker pull ghcr.io/open-webui/open-webui:main
     docker run -d -p 3000:8080 --gpus all -v open-webui:/app/backend/data --name open-webui ghcr.io/open-webui/open-webui:cuda
     ```
 
