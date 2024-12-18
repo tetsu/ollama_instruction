@@ -25,7 +25,13 @@
 1. To run on your brower, run OpenWebUI locally using Docker with GPU. [OpenWebUI document is here](https://docs.openwebui.com/getting-started/quick-start).
 
     ```bash
-    docker run -d -p 3000:8080 --gpus all -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda
+    docker run -d -p 3000:3000 --network host --gpus all -v open-webui:/app/backend/data \
+    -e OLLAMA_BASE_URL=http://localhost:11434 \
+    -e DEVICE_TYPE=cuda \
+    -e PORT=3000 \
+    --name open-webui \
+    --restart always \
+    ghcr.io/open-webui/open-webui:cuda
     ```
 
 1. Open OpenWebUI on your browser.
