@@ -10,7 +10,7 @@
 
     [http://localhost:11434](http://localhost:11434)
 
-1. Download a model for Ollama. [Check about Phi-4 on this Youtube video](https://youtu.be/aYvt9czdgbU).
+1. Download a model for Ollama. For other models, check [Ollama Libary site](https://ollama.com/library). [Check about Phi-4 on this Youtube video](https://youtu.be/aYvt9czdgbU).
 
     ```bash
     ollama pull vanilj/Phi-4
