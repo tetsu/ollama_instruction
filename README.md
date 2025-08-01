@@ -40,6 +40,12 @@
     ghcr.io/open-webui/open-webui:cuda
     ```
 
+    If your device doesn't use Cuda, use the following command
+
+    ```bash
+    docker run -d -p 3000:3000 --network host --gpus all -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://localhost:11434 -e DEVICE_TYPE=cuda -e PORT=3000 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+    ```
+
 1. Open OpenWebUI on your browser.
 
     [http://localhost:3000](http://localhost:3000)
